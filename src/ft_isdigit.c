@@ -1,21 +1,16 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   libft.h                                            :+:      :+:    :+:   */
+/*   ft_isdigit.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: jesgarci <jesgarci@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/01/23 20:27:26 by jesgarci          #+#    #+#             */
-/*   Updated: 2023/01/23 20:47:25 by jesgarci         ###   ########.fr       */
+/*   Created: 2023/01/23 20:42:23 by jesgarci          #+#    #+#             */
+/*   Updated: 2023/01/23 20:43:23 by jesgarci         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef LIBFT_H
-# define LIBFT_H
-
-# include <string.h>
-
-int		ft_isalpha(int c);
-int		ft_isdigit(int c);
-
-#endif
+int	ft_isdigit(int c)
+{
+	return (c >= '0' && c <= '9');
+}
